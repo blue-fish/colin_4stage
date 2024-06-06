@@ -1,6 +1,14 @@
 #incldue<stdio.h>
 int main()
 {
-	printf("test code\n");
+
+
+
+
+
+	 printf("code\n");
+	 printf("code\n");
+	printf("code\n");
+
 	return 0;
 }
