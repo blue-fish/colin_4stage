@@ -33,31 +33,25 @@
 ---
 ## Git 软件，分布式版本控制系统
   1. 绑定设备，方便管理代码
-     ```
-        bash
+     ```bash
 	git init //创建本地仓库
 	git config -list //查看git 配置文件
      ```
   2. 修改或添加config配置项
-     ```
-        bash
+     ```bash
 	git config --global user.name
 	git config --global user.email
      ```
   3. 生成本机设备密文
-     ```
-        bash
+     ```bash
 	ssh-keygen -t rsa -C "注册邮箱"
      ```
   4. 测试关联是否完成
-     ```
-        bash
+     ```bash
 	ssh -T git@github.com  
-
      ```
   5. 为目标仓库起别名，定位目标仓库，后续上传
-     ```
-        bash
+     ```bash
 	git remote add origin（别名） 云端仓库地址
 	git remote remove origin //删除别名
      ```
@@ -109,5 +103,5 @@ git clone "HTTP仓库地址" //下载开源项目code 资源
 ## 分支（branch）
    创建分支、选择分支、合并分支
 ---
-** 第二节的内容见文件 "class2.md" **
+   ** 第二节的内容见文件 "class2.md" **
 --
