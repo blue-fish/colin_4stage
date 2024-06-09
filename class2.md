@@ -50,4 +50,4 @@
 	}
 ```
 ---
-[github]("https://github.com/" "点击跳转")
+[github](https://github.com/ "点击跳转")
